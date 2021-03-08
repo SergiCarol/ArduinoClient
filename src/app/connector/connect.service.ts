@@ -14,7 +14,7 @@ import { Storage } from  '@ionic/storage';
 })
 
 export class ConnectService {
-  SERVER_ADDRESS:  string  =  'http://127.0.0.1:5000';
+  SERVER_ADDRESS:  string  =  'http://157.230.107.10:5000';
   constructor(private  httpClient:  HttpClient, private  storage:  Storage) { }
 
   getArduinos(user: AuthResponse): Observable<Arduinos>{

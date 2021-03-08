@@ -13,7 +13,7 @@ import { AuthResponse } from  './auth-response';
   providedIn: 'root'
 })
 export class AuthService {
-  AUTH_SERVER_ADDRESS:  string  =  'http://127.0.01:5000';
+  AUTH_SERVER_ADDRESS:  string  =  'http://157.230.107.10:5000';
   authSubject  =  new  BehaviorSubject(false);
 
   constructor(private  httpClient:  HttpClient, private  storage:  Storage) { }
