@@ -1,0 +1,8 @@
+{
+  "name": "arduino",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
